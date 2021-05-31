@@ -11,9 +11,7 @@
 **If you haven't already, please watch our video from the previous NFT tutorial 😎**
 {% endhint %}
 
-{% embed url="https://youtu.be/OeOliguGn7Y" %}
-
-
+{% embed url="https://youtu.be/OeOliguGn7Y" caption="" %}
 
 ### Clone the cardano-minter repo if you haven't already...
 
@@ -294,8 +292,6 @@ cd ..
 node src/pin-to-ipfs.js
 ```
 
-
-
 * Next, we can create a script called pin-images-to-ipfs.js, this will run through our images/assets and "pin" the images to IPFS using our local node.
 
 ```bash
@@ -336,7 +332,6 @@ async function main() {
 }
 
 main()
-
 ```
 
 ```bash
@@ -349,9 +344,7 @@ node src/pin-images-to-ipfs.js
 
 **Read the Cardano Documentation on "**[**Scripts**](https://docs.cardano.org/projects/cardano-node/en/latest/reference/simple-scripts.html#Step-1---construct-the-tx-body)**" and/or watch a video we made discussing the subject:**
 
-{% embed url="https://youtu.be/v6q66zcFqew" %}
-
-
+{% embed url="https://youtu.be/v6q66zcFqew" caption="" %}
 
 ### 7. Create an "open" or "unlocked" minting policy and script \(Optional\)
 

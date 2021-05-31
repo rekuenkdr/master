@@ -13,8 +13,6 @@ description: In this tutorial we walk through basic Raspberry Pi and Linux Set U
 5. Insert external SSD and copy the SD card to it
 6. Shutdown and reboot from SSD
 
-
-
 {% hint style="info" %}
 ### DON’T SKIP STEPS
 {% endhint %}
@@ -27,14 +25,13 @@ We are going to now download the latest official release of Raspberry Pi 64bit D
 
 **1. Download the Debian “buster” Raspberry Pi 64bit OS image** [**here**](https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-08-24/2020-08-20-raspios-buster-arm64.zip) **and save it in an accessible location for now on your computer.**
 
-
-**2. Next, download the Raspberry Pi Imager software that we will use in order to install the OS onto our  Raspberry Pi. This software is located on the** [**Raspberry Pi website**](https://www.raspberrypi.org/software/)**. Please download the correct version for your computer.**
+**2. Next, download the Raspberry Pi Imager software that we will use in order to install the OS onto our Raspberry Pi. This software is located on the** [**Raspberry Pi website**](https://www.raspberrypi.org/software/)**. Please download the correct version for your computer.**
 
 ![](../../.gitbook/assets/screen-shot-2021-03-12-at-5.36.30-pm.png)
 
- **3. Insert the SD card into your computer and open the "Raspberry Pi Imager".**
+**3. Insert the SD card into your computer and open the "Raspberry Pi Imager".**
 
-*  **Click on "CHOOSE OS"  then find the "2020-08-20-raspios-buster-arm64.zip" file you have downloaded in step \(1\) of this tutorial and select it.**
+* **Click on "CHOOSE OS"  then find the "2020-08-20-raspios-buster-arm64.zip" file you have downloaded in step \(1\) of this tutorial and select it.**
 * **Next, click on the "CHOOSE SD" and find the SD card you inserted into the computer**
 * **Now, the "WRITE" button will appear and you can click on it to begin writing/verifying the OS onto the SD card.**
 * **Finally, once it has finished the writing/verifying process, you will see a pop-up window saying that the OS was successfully written to the SD card, click "CONTINUE" and remove your SD card from the computer.**
@@ -110,8 +107,4 @@ You should now be able to shut down the Pi after it reboots up, remove the SD Ca
 {% hint style="success" %}
 #### Now that we have finished most of the initial set-up we can continue getting the Pi ready and move to the next [tutorial](tutorial-2-relaynode.md).
 {% endhint %}
-
-#### 
-
-
 
