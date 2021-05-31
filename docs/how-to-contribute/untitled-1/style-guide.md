@@ -7,7 +7,7 @@ description: Materiaalin tyyliohje ohjeistusten laatimiseen.
 _**Ote GitHub Manual of Style dokumentaatiosta, jonka pohjalta tämä ohje on laadittu:**_
 
 > Words are an important part of how software works. Just as we have a style guide for our code, we have a style guide for our tone and our voice. Even though there may be dozens of people creating a product, it should still sound like we speak in one consistent voice.
-> 
+>
 > In other words, the way we write is just as important as the way we design. Consider these things when writing copy.
 
 ## Sisältöperiaatteet
