@@ -1,5 +1,5 @@
 ---
-description: ¡Pon tus ADA a trabajar ahora!
+description: '¡Pon tus ADA a trabajar ahora!'
 ---
 
 # Cómo delegar tus ADA

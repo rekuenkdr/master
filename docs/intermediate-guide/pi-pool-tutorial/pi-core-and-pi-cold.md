@@ -175,7 +175,7 @@ nano $NODE_FILES/mainnet-topology.json
 {% endtab %}
 {% endtabs %}
 
-Use your LAN IPv4 for addr field if you are not using domain DNS. Be sure to have proper records set with your registrar or DNS service. Below are some examples. 
+Use your LAN IPv4 for addr field if you are not using domain DNS. Be sure to have proper records set with your registrar or DNS service. Below are some examples.
 
 Valency greater than one is only used with DNS round robin srv records.
 
@@ -412,7 +412,7 @@ echo Number of UTXOs: ${txcnt}
 {% hint style="danger" %}
 If you get
 
-`cardano-cli: Network.Socket.connect: : does not exist (No such file or directory)`
+`cardano-cli: Network. Socket.connect: : does not exist (No such file or directory)`
 
 It is because the core has not finished syncing to the tip of the blockchain. This can take a long time after a reboot. If you look in the db/ folder after cardano-service stop you will see a file named 'clean'. That is confirmation file of a clean database shutdown. It usually takes 5 to 10 minutes to sync back to the tip of the chain on Raspberry Pi as of epoch 267.
 
@@ -538,7 +538,11 @@ cardano-cli transaction submit \
 
 ## Register the pool 🏊
 
-Create a **poolMetaData.json** file. It will contain important information about your pool. You will need to host this file somewhere online forevermore. It must be online and you cannot edit it without resubmitting/updating your pool.cert. In the next couple steps we will hash 
+Create a **poolMetaData.json** file. It will contain important information about your pool. You will need to host this file somewhere online forevermore. It must be online and you cannot edit it without resubmitting/updating your pool.cert. In the next couple steps we will hash
+
+{% hint style="warning" %}
+metadata-url must be less than 64 characters.
+{% endhint %}
 
 {% embed url="https://pages.github.com/" caption="Hosting your poolMetaData.json on github is popular choice" %}
 
@@ -857,7 +861,7 @@ You should create an account and claim your pool here.
 
 ## Backups
 
-Get a couple small usb sticks and backup all your files and folders\(except the db/ folder\). Backup your online Core first then the Cold offline files and folders. **Do it now**, not worth the risk! **Do not plug the USB stick into anything online after Cold files are on it!**
+Get a couple small usb sticks and backup all your files and folders\(except the db/ folder\). Backup your online Core first then the Cold offline files and folders. **Do it now**, not worth the risk! **Do it now**, not worth the risk! **Do not plug the USB stick into anything online after Cold files are on it!**
 
 ![https://twitter.com/insaladaPool/status/1380087586509709312?s=19](../../.gitbook/assets/insalada.png)
 
