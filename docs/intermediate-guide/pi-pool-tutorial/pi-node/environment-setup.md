@@ -220,13 +220,7 @@ source $HOME/.bashrc
 
 What we just did there was add a function to control our cardano-service without having to type out
 
-> > sudo systemctl enable cardano-node.service
-> >
-> > sudo systemctl start cardano-node.service
-> >
-> > sudo systemctl stop cardano-node.service
-> >
-> > sudo systemctl status cardano-node.service
+> > sudo systemctl enable cardano-node.service sudo systemctl start cardano-node.service sudo systemctl stop cardano-node.service sudo systemctl status cardano-node.service
 
 Now we just have to:
 

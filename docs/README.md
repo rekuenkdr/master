@@ -1,20 +1,20 @@
 # Tervetuloa Pi Operaattorit
 
-## Haluat aloittaa urasi Raspberry Pi Stake Pool operaattorina Cardano lohkoketjussa ...mutta mistä aloittaa!? 😳
+## You want to become a Raspberry Pi Stake Pool Operator on Cardano...but where should you start!? 😳
 
 ![](.gitbook/assets/download-6-.jpeg)
 
-### **Tervetuloa Armada Allianssin info ja opas -osioon. Me olemme** RPi-ARM Cardano Stake Pool Opera**attoreiden yhteisö, jonka tavoitteena on tarjota tukea, opastusta ja ilmaisia vinkkejä tuleville Stake Pool Operaattoreille** 
+### **Welcome to the Armada Alliance's information and tutorials section.** We are a community of RPi-ARM Cardano Stake Pool Operators who aim to provide support and free educational resources to future Stake Pool Operators.
 
-### Vaikka keskiössämme on RPi-ARM pohjaisten stake poolien toiminta ja ylläpito, tarjoamme myös laajan kattauksen tietoa, oppaita ja resursseja Cardanon kehittämiseen. Jos haluat tietää enemmän projektistamme ja tavoitteistamme, käy tutustumassa Fund4 aloitteeseemme _Project Catalyst_issa tai liity _Discord -_kanavallemme. 
+### Although our focus is RPi-ARM stake pool operations, we will provide a wide range of information, tutorials, and resources for developing on Cardano. If you would like to know more about the project and our goals, please see our Fund4 proposal on _Project Catalyst_ for details or join our _Discord_.
 
-| Ota yhteyttä: |
-| :--- |
-| [Website](https://armada-alliance.com) |
-| [Discord](https://discord.com/channels/815680220827746364/815680224460931074) |
+| Ota yhteyttä:                                                                                          |
+|:------------------------------------------------------------------------------------------------------ |
+| [Website](https://armada-alliance.com)                                                                 |
+| [Discord](https://discord.com/channels/815680220827746364/815680224460931074)                          |
 | [Project Catalyst ](https://cardano.ideascale.com/a/dtd/ARMing-Cardano/340480-48088#idea-tab-comments) |
-| [GitHub](https://github.com/armada-alliance) |
-| [Telegram](https://t.me/joinchat/FeKTCBu-pn5OUZUz4joF2w) |
+| [GitHub](https://github.com/armada-alliance)                                                           |
+| [Telegram](https://t.me/joinchat/FeKTCBu-pn5OUZUz4joF2w)                                               |
 
 
 

@@ -10,7 +10,7 @@ description: Kuinka osallistua tämän oppaan laatimiseen?
 
 #### Mikäli haluat ottaa osaa tähän projektiin, aloita tutustumalla tähän [contributing guide](untitled-1/).
 
-#### 
+####
 
 ####  
 

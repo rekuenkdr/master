@@ -9,9 +9,9 @@ description: Laita ADAsi työskentelemään sinulle jo tänään!
 * **Ensimmäinen askel ADAn delegoimiseen on virallisen Cardano lompakon lataaminen, ellet ole jo sellaista ladannut.**
 
 {% hint style="danger" %}
-Yoroi on mobiililompakko ja saatavilla sekä Android että Apple laitteille. Daedalus ei ole mobiililompakko!
+Yoroi wallet is a mobile wallet available for Android and Apple devices. Daedalus is not a mobile wallet!
 
-### Varo feikkilompakoita! Jos herää epäilyksiä, tarkasta asia osoitteesta: [cardano.org](https://cardano.org/stake-pool-delegation#wallets)
+### Beware of fake wallets! If you have questions, check [cardano.org](https://cardano.org/stake-pool-delegation#wallets).
 {% endhint %}
 
 {% tabs %}
