@@ -1,7 +1,6 @@
 ---
 description: >-
-  After completing the Raspberry Pi setup we are now ready to download the files
-  needed for the testnet.
+  After completing the Raspberry Pi setup we are now ready to download the files needed for the testnet.
 ---
 
 # Set up a Relay Node
@@ -107,8 +106,8 @@ sudo reboot
 
 ### Download the Cardano-node static build
 
-| Provided By | Link to Cardano Static Build |
-| :--- | :--- |
+| Provided By                                                                                                                      | Link to Cardano Static Build                                                                           |
+|:-------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------------ |
 | [**ZW3RK**](https://adapools.org/pool/e2c17915148f698723cb234f3cd89e9325f40b89af9fd6e1f9d1701a) **1PCT Haskell CI Support Pool** | \*\*\*\*[**https://ci.zw3rk.com/build/1758**](https://ci.zw3rk.com/build/1758)\*\*\*\* |
 
 * A[ **static build**](https://en.wikipedia.org/wiki/Static_build) is a **\*\*\[**compiled**\]\(**[https://en.wikipedia.org/wiki/Compiler](https://en.wikipedia.org/wiki/Compiler)**\) \*\***version of a program that has been statically linked against libraries.

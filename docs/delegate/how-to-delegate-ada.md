@@ -18,7 +18,7 @@ Yoroi wallet is a mobile wallet available for Android and Apple devices. Daedalu
 {% tab title="Daedulus lompakko" %}
 
 {% tab %}
-### Alla olevasta linkistä pääset katsomaan video-ohjeita \(ohjeistus englanniksi\) Daedalus lompakon käyttöön ja ADAn delegointiin sen avulla:
+### I have included some video walkthroughs for using Daedulus Wallet and how to delegate/stake your ADA below:
 {% endtab %}
 
 {% tab %}
