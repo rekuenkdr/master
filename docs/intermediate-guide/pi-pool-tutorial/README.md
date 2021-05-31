@@ -1,7 +1,6 @@
 ---
 description: >-
-  A guide to building a 4 watt per Pi, Cardano Stake Pool. A reference guide for
-  the Pi-Node.img.gz.
+  A guide to building a 4 watt per Pi, Cardano Stake Pool. A reference guide for the Pi-Node.img.gz.
 ---
 
 # Pi-Node Image & Guides

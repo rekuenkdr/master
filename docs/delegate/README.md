@@ -4,7 +4,7 @@ description: Apoya la Descentralización
 
 # Delega
 
-## Por favor, considera delegar en alguno de ellos si estos tutoriales o recursos te ha ayudado. ¡Muchas gracias! 🙏 😊
+## Please consider delegating to any of our alliance members if you enjoy these tutorials and resources. Thank You! 🙏 😊
 
 {% embed url="https://armada-alliance.com" caption="" %}
 
