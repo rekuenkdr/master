@@ -1,6 +1,6 @@
 # Bienvenidos Operadores Pi
 
-## ¿Quieres ser un Operador de un Stake Pool de Cardano con una Raspberry Pi... por dónde deberías empezar?😳 😳
+## ¿Quieres ser un Operador de un Stake Pool de Cardano con una Raspberry Pi... por dónde deberías empezar?😳  😳
 
 ![](.gitbook/assets/download-6-.jpeg)
 
