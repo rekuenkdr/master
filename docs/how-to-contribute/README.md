@@ -6,7 +6,11 @@ description: Cómo contribuir con esta guía
 
 ## ¡Qué bien verte aquí!
 
-### We appreciate all community members that help us improve our educational resources with their contribution.
+#### Apreciamos a todos los miembros de la Comunidad que nos ayuden a mejorar nuestro contenido educativo con sus propias contribuciones. 
 
-### If you would like to contribute to this project, we have linked a [contributing guide](untitled-1/) where you can get started.
+#### Si quieres contribuir con este proyecto, puedes hacerlo en el siguiente enlace [Guía de Contribuir](untitled-1/), desde donde puedes empezar.
+
+#### 
+
+####  
 

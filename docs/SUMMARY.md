@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Bienvenidos Operadores Pi](README.md)
+* [Bienvenidos Opedadores Pi](README.md)
 * [Delega](delegate/README.md)
   * [Cómo delegar tus ADA](delegate/how-to-delegate-ada.md)
 * [Contribuir](how-to-contribute/README.md)
@@ -38,8 +38,4 @@
 
 * [Cardano Native Asset and NFT Tutorial](cardano-developer-guides/nft-native-assets.md)
 * [Cardano NFT Collection Tutorial](cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon.md)
-
-## ADVANCED GUIDES
-
-* [Alpine Linux OS](advanced-guides/alpine-linux-os.md)
 
