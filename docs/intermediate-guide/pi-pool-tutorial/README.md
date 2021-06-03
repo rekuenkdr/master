@@ -1,7 +1,6 @@
 ---
 description: >-
-  A guide to building a 4 watt per Pi, Cardano Stake Pool. A reference guide for
-  the Pi-Node.img.gz.
+  A guide to building a 4 watt per Pi, Cardano Stake Pool. A reference guide for the Pi-Node.img.gz.
 ---
 
 # Pi-Node Image & Guides
@@ -42,7 +41,7 @@ The cardano-node & cardano-cli binaries linked to in this guide require aarch64 
 * 2 Drives : \(NVMe **low power**, form & speed\).
 * M.2 key to USB3.1 adapter or whatever works with your drive.
 * A 3'rd 64bit capable Pi as an offline machine\(Cold\).
-* Class 10 micro sd card 8GB or larger. 
+* Class 10 micro sd card 8GB or larger.
 * Extra USB flash drives for backing up keys and configurations.
 * Consider a single 50+ watt power supply
 * Consider a 5 volt gigabit switch
