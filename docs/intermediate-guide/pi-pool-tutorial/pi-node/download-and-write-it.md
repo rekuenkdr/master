@@ -33,14 +33,8 @@ Plug the Pi into a monitor, insert the sd card and power up. Once you see a gree
 {% tab title="Pre configured Pi-Node.img.gz" %}
 ### Obtain Pi-Pool .img.gz file
 
-<<<<<<< HEAD
-| [Pi-Node](https://db.adamantium.online/Pi-Node.img.gz) |
-|:------------------------------------------------------ |
-|                                                        |
-=======
 | [Pi-Node](https://db.adamantium.online/Pi-Node.img.gz)  |
 | :--- |
->>>>>>> master
 
 
 ### Within Raspberry Pi Imager

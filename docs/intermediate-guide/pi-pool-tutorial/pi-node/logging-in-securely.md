@@ -1,11 +1,7 @@
 ---
 description: >-
-<<<<<<< HEAD
-  Generate a strong ssh keypair, boot your Raspberry Pi, copy ssh pub key and login
-=======
   Generate a strong ssh keypair, boot your Raspberry Pi, copy ssh pub key and
   login
->>>>>>> master
 ---
 
 # Logging in Securely
@@ -42,15 +38,9 @@ Plug in a network cable connected to your router and boot your new image.
 ### Login credentials
 
 | 🍓 Default Pi-Node Credentials | 🦍 Default Ubuntu Credentials |
-<<<<<<< HEAD
-|:----------------------------- |:---------------------------- |
-| username = ada                | username = ubuntu            |
-| password = lovelace           | password = ubuntu            |
-=======
 | :--- | :--- |
 | username = ada | username = ubuntu |
 | password = lovelace | password = ubuntu |
->>>>>>> master
 
 {% hint style="warning" %}
 Upon successful login you will be prompted to change your password & login with new credentials.
@@ -91,11 +81,7 @@ ssh-copy-id -i <ed25519-keyname.pub> ubuntu@<server-ip>
 ssh should return 1 key added and suggest a command for you to try logging into your new server.
 
 > Number of key\(s\) added: 1
-<<<<<<< HEAD
-> 
-=======
 >
->>>>>>> master
 > Now try logging into the machine, with: **&lt;run this in terminal&gt;**
 
 ## Log into your server with ssh

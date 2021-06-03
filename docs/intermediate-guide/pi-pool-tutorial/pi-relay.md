@@ -58,10 +58,7 @@ ff02::3 ip6-allhosts
 192.168.1.150 c1.example.com
 #192.168.1.151 r1.example.com
 192.168.1.152 r2.example.com
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 ```
 
 Save and exit.
@@ -146,10 +143,7 @@ cardano-node run \
   --host-addr ${HOSTADDR} \
   --port ${PORT} \
   --config ${CONFIG}
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 ```
 
 Enable cardano-service at boot.
@@ -227,11 +221,7 @@ curl -4 -s -o /home/ada/pi-pool/files/mainnet-topology.json "https://api.clio.on
 
 Save and exit.
 
-<<<<<<< HEAD
-After four hours of on boarding your relay\(s\) will start to be available to other peers on the network. **topologyUpdater.sh** will create a list in /home/ada/pi-pool/logs.
-=======
 After four hours of on boarding your relay\(s\) will start to be available to other peers on the network. **topologyUpdater.sh** will create a list in /home/ada/pi-pool/logs. 
->>>>>>> master
 
 relay-topology\_pull.sh will replace the contents of your relays mainnet-topology file.
 
@@ -252,16 +242,6 @@ Remember to remove the last entries comma in your list or cardano-node will fail
 nano /home/ada/pi-pool/files/mainnet-topology.json
 ```
 
-<<<<<<< HEAD
-### Enable blockfetch tracing
-
-```bash
-sed -i ${NODE_FILES}/mainnet-config.json \
-    -e "s/TraceBlockFetchDecisions\": false/TraceBlockFetchDecisions\": true/g"
-```
-
-=======
->>>>>>> master
 ## Update gLiveView port
 
 Open the env file in the scripts directory.
@@ -274,26 +254,16 @@ Update the port number to match the one set in the cardano-service file. 3001 in
 
 Reboot your new relay and let it sync back to the tip of the chain.
 
-<<<<<<< HEAD
-Use gLiveView.sh to view peer info.
-=======
 Use gLiveView.sh to view peer info. 
->>>>>>> master
 
 ```bash
 cd /home/ada/pi-pool/scripts
 ./gLiveView.sh
 ```
 
-<<<<<<< HEAD
-Many operators block icmp syn packets\(ping\) because of a security flaw that was patched a decade ago. So expect to see --- for RTT because we are not receiving a response from that server.
-
-More incoming connections is generally a good thing, it increases the odds that you will get network data sooner. Though you may want to put a limit on how many connect. The only way to stop incoming connections would be to block the IPv4 address with ufw.
-=======
 Many operators block icmp syn packets\(ping\) because of a security flaw that was patched a decade ago. So expect to see --- for RTT because we are not receiving a response from that server.  
 
 More incoming connections is generally a good thing, it increases the odds that you will get network data sooner. Though you may want to put a limit on how many connect.  The only way to stop incoming connections would be to block the IPv4 address with ufw.
->>>>>>> master
 
 ## Prometheus
 
@@ -364,9 +334,5 @@ scrape_configs:
           type:  'node'
 ```
 
-<<<<<<< HEAD
-Reboot the server and give it a while to sync back up. That is just about it. Please feel free to join our Telegram channel for support. [https://t.me/armada\_alli](https://t.me/armada_alli)
-=======
 Reboot the server and give it a while to sync back up. That is just about it. Please feel free to join our Telegram channel for support. [https://t.me/armada\_alli](https://t.me/armada_alli) 
->>>>>>> master
 
