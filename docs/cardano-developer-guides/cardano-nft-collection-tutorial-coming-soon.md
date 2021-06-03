@@ -11,9 +11,7 @@
 **If you haven't already, please watch our video from the previous NFT tutorial 😎**
 {% endhint %}
 
-{% embed url="https://youtu.be/OeOliguGn7Y" %}
-
-
+{% embed url="https://youtu.be/OeOliguGn7Y" caption="" %}
 
 ### Clone the cardano-minter repo if you haven't already...
 
@@ -120,7 +118,7 @@ async function main() {
 
             const { data } = await axios.get(`https://source.unsplash.com/640x400?cat&v=${random()}`, { responseType: 'arraybuffer' })
             console.log(`[${asset.name}] downloaded random cat image`)
-            
+
             await fs.writeFile(__dirname + '/' + asset.src, data)
             console.log(`[${asset.name}] image saved to "${asset.src}"`)
         })
@@ -186,7 +184,7 @@ node src/generate-thumbnails.js
 * create .env file and paste in our keys
 
 {% hint style="info" %}
-Make sure the **.env** file is in the **cardano-minter** directory but **not in** **the** **src** folder 
+Make sure the **.env** file is in the **cardano-minter** directory but **not in** **the** **src** folder
 {% endhint %}
 
 ```text
@@ -205,8 +203,6 @@ Read [this article ](https://docs.ipfs.io/how-to/pin-files/#three-kinds-of-pins)
 {% endhint %}
 
 * **First, we need to make a script called pin-to-ipfs.js, this script will "upload" and Pin our images to IPFS using the pinata.cloud API.**
-
-
 
 ```text
 nano pin-to-ipfs.js
@@ -285,8 +281,6 @@ cd ..
 node src/pin-to-ipfs.js
 ```
 
-
-
 * Next, we can create a script called pin-images-to-ipfs.js, this will run through our images/assets and "pin" the images to IPFS using our local node.
 
 ```bash
@@ -308,7 +302,7 @@ async function main() {
 
             const { ipfsLink: image, httpLink: imageLink } = await pinToIpfs(`${asset.id}_image`, __dirname + "/" + asset.image)
             console.log(`[${asset.name}] pinned image to ipfs (${imageLink})`)
-            
+
             const { ipfsLink: src, httpLink: srcLink } = await pinToIpfs(`${asset.id}_src`, __dirname + "/" + asset.src)
             console.log(`[${asset.name}] pinned image to ipfs (${srcLink})`)
 
@@ -327,7 +321,6 @@ async function main() {
 }
 
 main()
-
 ```
 
 ```bash
@@ -340,9 +333,7 @@ node src/pin-images-to-ipfs.js
 
 **Read the Cardano Documentation on "**[**Scripts**](https://docs.cardano.org/projects/cardano-node/en/latest/reference/simple-scripts.html#Step-1---construct-the-tx-body)**" and/or watch a video we made discussing the subject:**
 
-{% embed url="https://youtu.be/v6q66zcFqew" %}
-
-
+{% embed url="https://youtu.be/v6q66zcFqew" caption="" %}
 
 ### 7. Create an "open" or "unlocked" minting policy and script \(Optional\)
 
@@ -650,6 +641,6 @@ node src/send-multiple-assets-back-to-wallet.js
 ```
 
 {% hint style="success" %}
-**If you liked this tutorial and want to see more like it please consider staking ADA with our** [**PIADA**](https://adapools.org/pool/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65) **Stake Pool, or giving a one-time donation to our Alliance** [**https://cointr.ee/armada-alliance**](https://cointr.ee/armada-alliance)**.** 
+**If you liked this tutorial and want to see more like it please consider staking ADA with our** [**PIADA**](https://adapools.org/pool/b8d8742c7b7b512468448429c776b3b0f824cef460db61aa1d24bc65) **Stake Pool, or giving a one-time donation to our Alliance** [**https://cointr.ee/armada-alliance**](https://cointr.ee/armada-alliance)**.**
 {% endhint %}
 

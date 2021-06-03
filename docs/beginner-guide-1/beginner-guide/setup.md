@@ -1,76 +1,74 @@
 ---
-description: 'Tässä osiossa käymme läpi Raspberry Pi:n ja Linuxin käyttöönoton perusteita'
+description: In this tutorial we walk through basic Raspberry Pi and Linux Set Up
 ---
 
-# Raspberry Pi:n käyttöönotto
+# Setting up the Raspberry Pi
 
-## Lyhyesti <a id="h.vrhvb96nxxe9"></a>
+## Summary <a id="h.vrhvb96nxxe9"></a>
 
-1. Lataa käyttöjärjestelmä \(OS\). Tässä ohjeessa, Raspberry Pi:n omaa käyttöjärjestelmää \(Raspberry Pi OS\).
-2. Asenna Raspberry Pi OS Raspberry Pi Imagerin avulla 
-3. Asenna käyttöjärjestelmä SD kortille
-4. Käynnistä Pi kortilta ja määritä asetukset
-5. Liitä SSD ja kopioi SD kortti SSD:lle
-6. Sammuta laite ja  käynnistä uudelleen SSD:ltä
-
-
+1. Download an Operating system \(OS\). For this tutorial, we will be using the Raspberry Pi OS.
+2. Install Raspberry Pi OS using Raspberry Pi Imager
+3. Flash the OS onto the SD card
+4. Boot up the Pi and configure the settings
+5. Insert external SSD and copy the SD card to it
+6. Shutdown and reboot from SSD
 
 {% hint style="info" %}
-### ÄLÄ HYPPÄÄ VAIHEIDEN YLI
+### DON’T SKIP STEPS
 {% endhint %}
 
-### **Osa 1:**
+### **Part One:**
 
-### Raspberry Pi Debian "buster" OS asentaminen <a id="h.lpv6ciisjqp3"></a>
+### Installing the Raspberry Pi Debian "buster" OS <a id="h.lpv6ciisjqp3"></a>
 
-Lataa viimeisin virallinen versio käyttöjärjestelmästä Raspberry Pi 64bit Debian OS. Tämä on virallinen Raspberry Pi:lle ja ARM64 CPU:lle suunniteltu 64bit Linux käyttöjärjestelmä, joten järjestelmä on hyvin vakaa ja helpottaa Raspberry Pin käyttöönottoa.
+We are going to now download the latest official release of Raspberry Pi 64bit Debian OS. This is the official Linux 64bit OS distribution that is designed for the Raspberry Pi and its ARM64 CPU. This makes it stable and very easy to get started with the Raspberry Pi.
 
-**1. Lataa Debian “buster” Raspberry Pi 64bit OS image** [**täältä**](https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-08-24/2020-08-20-raspios-buster-arm64.zip) **ja tallenna se toistaiseksi tietokoneellesi kätevästi saataville.**
+**1. Download the Debian “buster” Raspberry Pi 64bit OS image** [**here**](https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-08-24/2020-08-20-raspios-buster-arm64.zip) **and save it in an accessible location for now on your computer.**
 
-**2. Seuraavaksi, lataa Raspberry Pi Imager ohjelma, jota käytetään asentamaan   yllä mainittu käyttöjärjestelmä Raspberry Pi:lle. Ohjelma on saatavilla** [**Raspberry Pi** ](https://www.raspberrypi.org/software/)**verkkosivuilta. Tarkasta, että lataat koneellesi oikean version.**
+**2. Next, download the Raspberry Pi Imager software that we will use in order to install the OS onto our Raspberry Pi. This software is located on the** [**Raspberry Pi website**](https://www.raspberrypi.org/software/)**. Please download the correct version for your computer.**
 
 ![](../../.gitbook/assets/screen-shot-2021-03-12-at-5.36.30-pm.png)
 
- **3. Aseta SD kortti tietokoneeseesi ja avaa "Raspberry Pi Imager".**
+**3. Insert the SD card into your computer and open the "Raspberry Pi Imager".**
 
-*  **Klikkaa "CHOOSE OS" ja etsi koneeltasi "2020-08-20-raspios-buster-arm64.zip" tiedosto, jonka latasit kohdassa \(1\) ja valitse se.** 
-* **Seuraavaksi, klikkaa "CHOOSE SD" ja etsi SD kortti, jonka asetit koneeseesi**  
-* **"WRITE" nappula ilmestyy ja painamalla sitä aloitat käyttökärjestelmän asennuksen SD kortille.** 
-* **Lopuksi, kun kirjoitusprosessi on valmis, näet pop-up ikkunan, joka kertoo että käyttöjärjestelmä on asennettu onnistuneesti SD kortille. Klikkaa "CONTINUE" ja poista SD kortti tietokoneesta.** 
-
-{% hint style="info" %}
-#### **Mikäli ohjeiden seuraaminen ei jostai syystä onnistunut,** [**täällä**](https://www.youtube.com/watch?v=J024soVgEeM) **on lyhyt opasvideo yllä kuvatusta prosessista.**
-{% endhint %}
-
-### Osa 2:
-
-### Raspberry Pi järjestelmäasetukset
-
-Ensimmäiseksi haluamme tietenkin käynnistää Raspberry Pi tietokoneemme ja asettaa haluamamme järjestelmäasetukset.
-
-Tätä varten valmistelemamme SD kortti asetetaan Raspberry Pin pohjassa olevaan asemaan. Seuraavaksi kiinnitetään HDMI kaapeli, näppäimistö, hiiri ja virtalähde.
-
-Kun Raspberry Pin käynnistys on valmis ja Raspberry Pi OS työpöytä on näkyvillä voimme aloittaa asetusten määrittämisen.
+* **Click on "CHOOSE OS"  then find the "2020-08-20-raspios-buster-arm64.zip" file you have downloaded in step \(1\) of this tutorial and select it.**
+* **Next, click on the "CHOOSE SD" and find the SD card you inserted into the computer**
+* **Now, the "WRITE" button will appear and you can click on it to begin writing/verifying the OS onto the SD card.**
+* **Finally, once it has finished the writing/verifying process, you will see a pop-up window saying that the OS was successfully written to the SD card, click "CONTINUE" and remove your SD card from the computer.**
 
 {% hint style="info" %}
-Mikäli tämä on ensimmäinen kerta kun käynnistät Raspberry Pi koneesi, seuraa käyttöön oton ohjeita alla.
+#### **If you still have issues following the written instructions,** [**here**](https://www.youtube.com/watch?v=J024soVgEeM) **is a short video of this process.**
 {% endhint %}
 
-* [ ] Ensin, vaihda koneen käyttäjätunnuksesi ja salasanasi. Näin turvaat laitteesi, evätkä oletustunnukset ole enää käytössä.
-* [ ] Liity omaan Wifi verkkoosi \(**voit ohittaa tämän, jos käytät Ethernet yhteyttä**\)
-* [ ] Aseta paikallinen aikavyöhykkeesi
-* [ ] Valitse kieli ja näppäimistöasetukset
-* [ ] Päivitä Raspberry Pi \(ohita tämä, jos haluat päivittää laitteen terminaalin kautta\)
+### Part 2:
+
+### Configuring the Raspberry Pi
+
+The first thing that we want to do is get the Raspberry Pi booted up and configured for our use.
+
+To do this we will need to insert the SD card we flashed earlier with the Raspberry Pi OS into the bottom of the Raspberry Pi. Then we can insert our HDMI, Keyboard, Mouse, and power supply.
+
+Once the Raspberry Pi startup screen is finished and you have booted into the Raspberry Pi OS Desktop screen we can now begin to set up our Raspberry Pi configuration and settings.
+
+{% hint style="info" %}
+If this is your first time booting up the Raspberry Pi OS you will have to follow some initial configurations listed below
+{% endhint %}
+
+* [ ] First, you need to change the Raspberry Pi's Hostname and Password, this will make sure you are not just running the basic login information.
+* [ ] Enter Wifi login information \(**you** **may** **skip this if you are using Ethernet**\)
+* [ ] Set your local time zone.
+* [ ] Choose language and keyboard settings.
+* [ ] Update Raspberry Pi \(skip this if you want to update via command line\)
 
 {% hint style="success" %}
-#### Näiden ensiasetusten jälkeen on aika asettaa Raspberri Pi käynnistymään USB portin kautta, jotta voit käyttää ulkoista SSD kovalevyäsi. 
+#### After you are done with these initial setup steps, it is time to proceed to get the Rasberry Pi to boot from its USB so that way we can use our external SSD.
 {% endhint %}
 
-### Osa 3:
+### Part 3:
 
-### Pi:n käynnistäminen USB:n kautta
+### Getting the Pi to Boot from USB
 
-**Tämä onkin jo käyttöönotto-oppaan viimeinen osio. Ensin ulkoinen SSD kovalevy liitetään sinisellä merkittyyn USB 3.0 porttiin.**  
+**This is the final step in this tutorial. We are going to first insert our external SSD into one of the USB 3.0 slots marked blue.**
 
 ![](../../.gitbook/assets/pi4.jpeg)
 
@@ -109,8 +107,4 @@ You should now be able to shut down the Pi after it reboots up, remove the SD Ca
 {% hint style="success" %}
 #### Now that we have finished most of the initial set-up we can continue getting the Pi ready and move to the next [tutorial](tutorial-2-relaynode.md).
 {% endhint %}
-
-#### 
-
-
 
