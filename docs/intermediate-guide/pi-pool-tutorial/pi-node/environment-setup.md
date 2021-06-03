@@ -619,7 +619,7 @@ At this point you may want to start cardano-service and get synced up before we 
 
 ### Configure Grafana
 
-On your local machine open your browser and got to \[\[[http://&lt;Pi-Node's\]\(http://\]\(http://](http://<Pi-Node's]%28http://]%28http://){\[--lt--]}Pi-Node's\]%28[http://\)&lt;Pi-Node's\\](http://%29<Pi-Node's\)\) private ip&gt;:5000
+On your local machine open your browser and got to \[\[[http://&lt;Pi-Node's\]\(http://\]\(http://](http://<Pi-Node's]%28http://]%28http://){\[--lt--]}Pi-Node's\]%28\[http://\)&lt;Pi-Node's\\\](http://%29<Pi-Node's\)\) private ip&gt;:5000
 
 Log in and set a new password. Default username and password is **admin:admin**.
 

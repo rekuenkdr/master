@@ -22,6 +22,13 @@ Cardano-wallet will not build on arm due to dependency failure. @ZW3RK tried to 
 [https://hydra.iohk.io/build/3770189](https://hydra.iohk.io/build/3770189)
 {% endhint %}
 
+### Enable blockfetch tracing
+
+```text
+sed -i ${NODE_FILES}/mainnet-config.json \
+    -e "s/TraceBlockFetchDecisions\": false/TraceBlockFetchDecisions\": true/g"
+```
+
 ## Generate Keys & Issue Operational Certificate
 
 {% hint style="warning" %}

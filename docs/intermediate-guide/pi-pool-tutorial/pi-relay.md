@@ -240,6 +240,13 @@ Remember to remove the last entries comma in your list or cardano-node will fail
 nano /home/ada/pi-pool/files/mainnet-topology.json
 ```
 
+### Enable blockfetch tracing
+
+```bash
+sed -i ${NODE_FILES}/mainnet-config.json \
+    -e "s/TraceBlockFetchDecisions\": false/TraceBlockFetchDecisions\": true/g"
+```
+
 ## Update gLiveView port
 
 Open the env file in the scripts directory.
