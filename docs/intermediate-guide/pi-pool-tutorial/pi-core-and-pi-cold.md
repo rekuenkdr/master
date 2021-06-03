@@ -22,6 +22,13 @@ Cardano-wallet will not build on arm due to dependency failure. @ZW3RK tried to 
 [https://hydra.iohk.io/build/3770189](https://hydra.iohk.io/build/3770189)
 {% endhint %}
 
+### Enable blockfetch tracing
+
+```text
+sed -i ${NODE_FILES}/mainnet-config.json \
+    -e "s/TraceBlockFetchDecisions\": false/TraceBlockFetchDecisions\": true/g"
+```
+
 ## Generate Keys & Issue Operational Certificate
 
 {% hint style="warning" %}
@@ -861,7 +868,7 @@ You should create an account and claim your pool here.
 
 ## Backups
 
-Get a couple small usb sticks and backup all your files and folders\(except the db/ folder\). Backup your online Core first then the Cold offline files and folders. **Do it now**, not worth the risk! **Do it now**, not worth the risk! **Do not plug the USB stick into anything online after Cold files are on it!**
+Get a couple small usb sticks and backup all your files and folders\(except the db/ folder\). Backup your online Core first then the Cold offline files and folders. **Do it now**, not worth the risk! **Do it now**, not worth the risk! **Do it now**, not worth the risk! **Do not plug the USB stick into anything online after Cold files are on it!**
 
 ![https://twitter.com/insaladaPool/status/1380087586509709312?s=19](../../.gitbook/assets/insalada.png)
 

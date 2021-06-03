@@ -10,7 +10,7 @@ You have set up a Cardano node using one of the tutorials provided [here](pi-poo
 
 ## Make New Directory
 
-To start, pick a location on the machine that is running Grafana where you will create a new directory for the node exporter to use. The node exporter is likely located in /opt/cardano/monitoring/**node\_exporter** given the pi-pool default location. \_\_If not, see if you can find it using the "which node\_exporter" command. If that doesn't find it, the directory where it's located is not on your $PATH and you'll need to dig deeper. [Check this git](https://github.com/prometheus/node_exporter) for more information.
+To start, pick a location on the machine that is running Grafana where you will create a new directory for the node exporter to use. The node exporter is likely located in /opt/cardano/monitoring/**node\_exporter** given the pi-pool default location. [Check this git](https://github.com/prometheus/node_exporter) for more information. \_\_If not, see if you can find it using the "which node\_exporter" command. If that doesn't find it, the directory where it's located is not on your $PATH and you'll need to dig deeper.
 
 Change to the location for the new directory, here I'm selecting the local bin for my user.
 

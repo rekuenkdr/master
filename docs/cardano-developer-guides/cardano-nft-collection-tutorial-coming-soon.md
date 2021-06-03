@@ -80,6 +80,17 @@ async function main() {
             // description: "", 
             image: `images/${id}_thumbnail.${extension}`, // images/PIADA0_thumbnail.png
             src: `images/${id}.${extension}`, // images/PIADA0.png
+            type: i : i + 1
+        const id = `PIADA${number}` // PIADA0
+
+        const [extension] = MIME_TYPE.split("/").reverse() // png
+
+        return {
+            id,
+            name: `PIADA #${number}`,
+            // description: "", 
+            image: `images/${id}_thumbnail.${extension}`, // images/PIADA0_thumbnail.png
+            src: `images/${id}.${extension}`, // images/PIADA0.png
             type: MIME_TYPE,
             // add whatever like below
             authors: ["PIADA", "SBLYR"],

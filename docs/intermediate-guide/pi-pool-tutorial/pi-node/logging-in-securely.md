@@ -85,5 +85,5 @@ ssh should return 1 key added and suggest a command for you to try logging into 
 
 ## Log into your server with ssh
 
-Run the suggestion and you should be greeted with your remote shell. Congratulations! 🥳 🥳
+Run the suggestion and you should be greeted with your remote shell. Congratulations! 🥳 🥳 🥳
 
