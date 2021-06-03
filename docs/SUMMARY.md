@@ -2,21 +2,22 @@
 
 * [Tervetuloa Pi Operaattorit](README.md)
 * [Delegointi](delegate/README.md)
+  * [Untitled](delegate/untitled.md)
   * [Kuinka delegoida ADAsi](delegate/how-to-delegate-ada.md)
 * [Osallistu](how-to-contribute/README.md)
   * [Osallistumisohje](how-to-contribute/untitled-1/README.md)
     * [Tyyliohje](how-to-contribute/untitled-1/style-guide.md)
     * [Ohjesääntö](how-to-contribute/untitled-1/untitled.md)
 
-## What is required <a id="before-you-get-started..."></a>
+## Mitä vaaditaan <a id="before-you-get-started..."></a>
 
-* [Resource Library](before-you-get-started.../prerequisites-and-recommended-resources-to-review.md)
-* [Hardware Purchase Links](before-you-get-started.../hardware.md)
+* [Resurssikirjasto](before-you-get-started.../prerequisites-and-recommended-resources-to-review.md)
+* [Hyödyllisiä linkkeja laitteiston hankintaan](before-you-get-started.../hardware.md)
 
 ## Beginner Guides <a id="beginner-guide-1"></a>
 
-* [Raspberry Pi OS Tutorials](beginner-guide-1/beginner-guide/README.md)
-  * [Setting up the Raspberry Pi](beginner-guide-1/beginner-guide/setup.md)
+* [Raspberry Pi OS Oppaat](beginner-guide-1/beginner-guide/README.md)
+  * [Raspberry Pi:n käyttöönotto](beginner-guide-1/beginner-guide/setup.md)
   * [Set up a Relay Node](beginner-guide-1/beginner-guide/tutorial-2-relaynode.md)
 
 ## Intermediate Guides <a id="intermediate-guide"></a>
@@ -38,8 +39,4 @@
 
 * [Cardano Native Asset and NFT Tutorial](cardano-developer-guides/nft-native-assets.md)
 * [Cardano NFT Collection Tutorial](cardano-developer-guides/cardano-nft-collection-tutorial-coming-soon.md)
-
-## ADVANCED GUIDES
-
-* [Alpine Linux OS](advanced-guides/alpine-linux-os.md)
 
