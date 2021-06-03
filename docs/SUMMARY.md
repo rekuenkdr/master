@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Tervetuloa Pi Operaattorit](README.md)
-* [Delegointi](delegate/README.md)
-  * [Kuinka delegoida ADAsi](delegate/how-to-delegate-ada.md)
-* [Osallistu](how-to-contribute/README.md)
-  * [Osallistumisohje](how-to-contribute/untitled-1/README.md)
-    * [Tyyliohje](how-to-contribute/untitled-1/style-guide.md)
-    * [Ohjesääntö](how-to-contribute/untitled-1/untitled.md)
+* [Welcome Pi Operators](README.md)
+* [Delegate](delegate/README.md)
+  * [How to delegate ADA](delegate/how-to-delegate-ada.md)
+* [Contribute](how-to-contribute/README.md)
+  * [Contributing Guide](how-to-contribute/untitled-1/README.md)
+    * [Style Guide](how-to-contribute/untitled-1/style-guide.md)
+    * [Code of Conduct](how-to-contribute/untitled-1/untitled.md)
 
 ## What is required <a id="before-you-get-started..."></a>
 
