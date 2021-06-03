@@ -1,7 +1,11 @@
 ---
 description: >-
+<<<<<<< HEAD
+  After completing the Raspberry Pi setup we are now ready to download the files needed for the testnet.
+=======
   After completing the Raspberry Pi setup we are now ready to download the files
   needed for the testnet.
+>>>>>>> master
 ---
 
 # Set up a Relay Node
@@ -19,10 +23,17 @@ description: >-
 1. Environment Setup
 2. Downloading the binaries needed to build a Cardano node relay
 3. Download configuration files from IOHK/Cardano-node
+<<<<<<< HEAD
+4. Edit the config settings
+5. Download a database snapshot to speed up the sync process
+6. Run the basic passive relay node to connect to the testnet
+7. Monitor the relay node with [**Guild Operators gLiveView** ](https://cardano-community.github.io/guild-operators/#/)
+=======
 4. Edit the config settings 
 5. Download a database snapshot to speed up the sync process
 6. Run the basic passive relay node to connect to the testnet
 7. Monitor the relay node with [**Guild Operators gLiveView** ](https://cardano-community.github.io/guild-operators/#/) 
+>>>>>>> master
 
 ![](../../.gitbook/assets/download-10-%20%281%29.jpeg)
 
@@ -107,8 +118,13 @@ sudo reboot
 
 ### Download the Cardano-node static build
 
+<<<<<<< HEAD
+| Provided By                                                                                                                      | Link to Cardano Static Build                                                                           |
+|:-------------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------------ |
+=======
 | Provided By | Link to Cardano Static Build |
 | :--- | :--- |
+>>>>>>> master
 | [**ZW3RK**](https://adapools.org/pool/e2c17915148f698723cb234f3cd89e9325f40b89af9fd6e1f9d1701a) **1PCT Haskell CI Support Pool** | \*\*\*\*[**https://ci.zw3rk.com/build/1758**](https://ci.zw3rk.com/build/1758)\*\*\*\* |
 
 * A[ **static build**](https://en.wikipedia.org/wiki/Static_build) is a ****[**compiled**](https://en.wikipedia.org/wiki/Compiler) ****version of a program that has been statically linked against libraries.
@@ -329,7 +345,11 @@ We have been provided a snapshot of the testnet database thanks to Star Forge Po
 **Make sure you have not started a Cardano node before proceeding.** 🛑
 {% endhint %}
 
+<<<<<<< HEAD
+First, make sure the cardano-service we created earlier is stopped, then we download the database in our testnet-relay/files. You can run the following commands to begin our download.
+=======
 First, make sure the cardano-service we created earlier is stopped, then we download the database in our testnet-relay/files. You can run the following commands to begin our download. 
+>>>>>>> master
 
 ```bash
 # Make sure you do not have the cardano-node running in the background

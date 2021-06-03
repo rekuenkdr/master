@@ -22,6 +22,16 @@ Cardano-wallet will not build on arm due to dependency failure. @ZW3RK tried to 
 [https://hydra.iohk.io/build/3770189](https://hydra.iohk.io/build/3770189)
 {% endhint %}
 
+<<<<<<< HEAD
+### Enable blockfetch tracing
+
+```text
+sed -i ${NODE_FILES}/mainnet-config.json \
+    -e "s/TraceBlockFetchDecisions\": false/TraceBlockFetchDecisions\": true/g"
+```
+
+=======
+>>>>>>> master
 ## Generate Keys & Issue Operational Certificate
 
 {% hint style="warning" %}
@@ -103,7 +113,11 @@ cardano-cli node issue-op-cert \
 
 Copy **node.cert** to your Core machine.
 
+<<<<<<< HEAD
+Generate a VRF key pair.
+=======
  Generate a VRF key pair.
+>>>>>>> master
 
 {% tabs %}
 {% tab title="Core" %}
@@ -175,13 +189,21 @@ nano $NODE_FILES/mainnet-topology.json
 {% endtab %}
 {% endtabs %}
 
+<<<<<<< HEAD
+Use your LAN IPv4 for addr field if you are not using domain DNS. Be sure to have proper records set with your registrar or DNS service. Below are some examples.
+=======
 Use your LAN IPv4 for addr field if you are not using domain DNS. Be sure to have proper records set with your registrar or DNS service. Below are some examples. 
+>>>>>>> master
 
 Valency greater than one is only used with DNS round robin srv records.
 
 {% tabs %}
 {% tab title="1 Relay DNS" %}
+<<<<<<< HEAD
+```text
+=======
 ```
+>>>>>>> master
 {
   "Producers": [
     {
@@ -214,7 +236,11 @@ Valency greater than one is only used with DNS round robin srv records.
 {% endtab %}
 
 {% tab title="1 Relay IPv4" %}
+<<<<<<< HEAD
+```text
+=======
 ```
+>>>>>>> master
 {
   "Producers": [
     {
@@ -228,7 +254,11 @@ Valency greater than one is only used with DNS round robin srv records.
 {% endtab %}
 
 {% tab title="2 Relays IPv4" %}
+<<<<<<< HEAD
+```text
+=======
 ```
+>>>>>>> master
 {
   "Producers": [
     {
@@ -538,11 +568,23 @@ cardano-cli transaction submit \
 
 ## Register the pool 🏊
 
+<<<<<<< HEAD
+Create a **poolMetaData.json** file. It will contain important information about your pool. You will need to host this file somewhere online forevermore. It must be online and you cannot edit it without resubmitting/updating your pool.cert. In the next couple steps we will hash
+
+{% hint style="warning" %}
+metadata-url must be less than 64 characters.
+{% endhint %}
+
+{% embed url="https://pages.github.com/" caption="Hosting your poolMetaData.json on github is popular choice" %}
+
+I say host it on your Pi with NGINX.
+=======
 Create a **poolMetaData.json** file. It will contain important information about your pool. You will need to host this file somewhere online forevermore. It must be online and you cannot edit it without resubmitting/updating your pool.cert. In the next couple steps we will hash 
 
 {% embed url="https://pages.github.com/" caption="Hosting your poolMetaData.json on github is popular choice" %}
 
  I say host it on your Pi with NGINX.
+>>>>>>> master
 
 {% tabs %}
 {% tab title="Core" %}
@@ -619,7 +661,11 @@ Use the format below to register single or multiple relays.
 {% endtab %}
 
 {% tab title="DNS Relay\(2\)" %}
+<<<<<<< HEAD
+```text
+=======
 ```
+>>>>>>> master
 --single-host-pool-relay <r1.example.com> \
 --pool-relay-port <R1 NODE PORT> \
 --single-host-pool-relay <r2.example.com> \
@@ -628,7 +674,11 @@ Use the format below to register single or multiple relays.
 {% endtab %}
 
 {% tab title="IPv4 Relay\(2\)" %}
+<<<<<<< HEAD
+```text
+=======
 ```
+>>>>>>> master
 --pool-relay-ipv4 <R1 NODE PUBLIC IP> \
 --pool-relay-port <R1 NODE PORT> \
 --pool-relay-ipv4 <R2 NODE PUBLIC IP> \
@@ -841,19 +891,31 @@ cardano-cli transaction submit \
 
 pool.vet is a website for pool operators to check the validity of their stake pools on chain data. You can check this site for problems and clues as to how to fix them.
 
+<<<<<<< HEAD
+{% embed url="https://pool.vet/" caption="" %}
+=======
 {% embed url="https://pool.vet/" %}
+>>>>>>> master
 
 ### adapools.org
 
 You should create an account and claim your pool here.
 
+<<<<<<< HEAD
+{% embed url="https://adapools.org/" caption="" %}
+=======
 {% embed url="https://adapools.org/" %}
+>>>>>>> master
 
 ### pooltool.io
 
 You should create an account and claim your pool here.
 
+<<<<<<< HEAD
+{% embed url="https://pooltool.io/" caption="" %}
+=======
 {% embed url="https://pooltool.io/" %}
+>>>>>>> master
 
 ## Backups
 

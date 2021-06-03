@@ -220,6 +220,9 @@ source $HOME/.bashrc
 
 What we just did there was add a function to control our cardano-service without having to type out
 
+<<<<<<< HEAD
+> > sudo systemctl enable cardano-node.service sudo systemctl start cardano-node.service sudo systemctl stop cardano-node.service sudo systemctl status cardano-node.service
+=======
 > > sudo systemctl enable cardano-node.service
 > >
 > > sudo systemctl start cardano-node.service
@@ -227,6 +230,7 @@ What we just did there was add a function to control our cardano-service without
 > > sudo systemctl stop cardano-node.service
 > >
 > > sudo systemctl status cardano-node.service
+>>>>>>> master
 
 Now we just have to:
 
@@ -477,7 +481,11 @@ You can connect a Telegram bot to Grafana which can alert you of problems with t
 
 {% embed url="https://github.com/prometheus" caption="" %}
 
+<<<<<<< HEAD
+![](../../../.gitbook/assets/pi-pool-grafana%20%281%29.png)
+=======
 ![](../../../.gitbook/assets/pi-pool-grafana.png)
+>>>>>>> master
 
 ### Install Prometheus & Node Exporter.
 
@@ -631,7 +639,11 @@ Log in and set a new password. Default username and password is **admin:admin**.
 
 #### Configure data source
 
+<<<<<<< HEAD
+In the left hand vertical menu go to **Configure** &gt; **Datasources** and click to **Add data source**. Choose Prometheus. Enter [http://localhost:9090](http://localhost:9090) where it is grayed out, everything can be left default. At the bottom save & test. You should get the green "Data source is working" if cardano-monitor has been started. If for some reason those services failed to start issue **cardano-service restart**.
+=======
 In the left hand vertical menu go to **Configure** &gt; **Datasources** and click to **Add data source**. Choose Prometheus. Enter **http://localhost:9090** where it is grayed out, everything can be left default. At the bottom save & test. You should get the green "Data source is working" if cardano-monitor has been started. If for some reason those services failed to start issue **cardano-service restart**.
+>>>>>>> master
 
 #### Import dashboards
 
@@ -641,7 +653,11 @@ Save the dashboard json files to your local machine.
 
 In the left hand vertical menu go to **Dashboards** &gt; **Manage** and click on **Import**. Select the file you just downloaded/created and save. Head back to **Dashboards** &gt; **Manage** and click on your new dashboard.
 
+<<<<<<< HEAD
+![](../../../.gitbook/assets/pi-pool-grafana%20%281%29.png)
+=======
 ![](../../../.gitbook/assets/pi-pool-grafana.png)
+>>>>>>> master
 
 ### Configure poolDataLive
 

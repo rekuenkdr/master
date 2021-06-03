@@ -9,7 +9,11 @@ It will take about 15 minutes to download the chain and another 45 to sync to th
 
 It can take anywhere from 5 to 50 minutes to sync after a reboot depending how the node was shut down or restarted. Check if process is running with htop. If it is, use gLiveView.sh or go for walk. It will sync and the socket will be created.
 
+<<<<<<< HEAD
+It is best to just leave it running. 🏃♀
+=======
 It is best to just leave it running. 🏃♀ 
+>>>>>>> master
 {% endhint %}
 
 ## Quick Start
@@ -38,6 +42,18 @@ wget -r -np -nH -R "index.html*" -e robots=off https://db.adamantium.online/db/
 
 ### 5. Enable & start the cardano-service.
 
+<<<<<<< HEAD
+{% hint style="warning" %}
+Wait for wget to finish downloading the chain before starting the cardano-service. While you are waiting update Ubuntu by entering the server from another terminal.
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+{% endhint %}
+
+=======
+>>>>>>> master
 ```bash
 cardano-service enable
 cardano-service start
@@ -72,9 +88,15 @@ Default credentials = **admin:admin**
 
 #### Dashboards can be found here.
 
+<<<<<<< HEAD
+{% embed url="https://github.com/armada-alliance/dashboards" caption="" %}
+
+{% embed url="https://api.pooldata.live/" caption="" %}
+=======
 {% embed url="https://github.com/armada-alliance/dashboards" %}
 
 {% embed url="https://api.pooldata.live/" %}
+>>>>>>> master
 
 {% hint style="info" %}
 The following guide builds out the image, use it as a reference and please feel free to ask for clarification in our Telegram channel. [https://t.me/armada\_alli](https://t.me/armada_alli)
